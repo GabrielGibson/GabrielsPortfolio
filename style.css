@@ -1,0 +1,24 @@
+span {font-weight:bold; font-size: 20px;}
+h1 {color: #003333;font-family: 'Roboto', sans-serif;}
+body {background-color: #226666; font-size: 24px; font-family: 'Roboto', sans-serif; text-align:center;}
+/*Helps make the entire site look uniform*/
+#Table {text-align: center; background-color: #669999;}
+p {background-color: #669999}
+.colselect {background-color: #669999}
+.imges {height: 500px; width: 500px}
+/*Image Styling*/
+.special {font-style: italic;}
+/*For text which is not part of the standard structure*/
+.center {margin-left: auto; margin-right: auto;}
+/*This is to center tables*/
+#why:hover::after { content:" *Note*: Information has changed since this was written, Web Developer is now ISA";}
+.big {transition: width 2s, height 2s;}
+.big:hover {height: 550px; width: 550px;}
+@keyframes first-animation {
+    from {filter:none;}
+    to {filter: brightness(200%);}
+}
+p:hover {animation-name: first-animation; animation-duration: 2s;}
+td:hover {background-color: white;}
+.content {animation-name: first-animation; animation-duration: 2s;}
+ul:hover {animation-name: first-animation; animation-duration: 2s;}
